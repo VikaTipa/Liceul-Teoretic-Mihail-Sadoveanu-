@@ -14,6 +14,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="icon" type="image/png" href="../imagini/emblema.jpg">
     <script src="../js/main.js"></script>
+    <style>
+        table {
+            width: 100%;
+            }
+
+        td {
+            width: 50%;
+            text-align: center;
+            font-size: 20px;
+            font-style: bold;
+            font-family: 'Times New Roman', Times, serif;
+
+        tr {
+            background-color: beige;
+        }
+    </style>
 
 </head>
 
@@ -25,7 +41,7 @@
             <p class="liceu"> Liceul Teoretic "Mihail Sadoveanu"</p>
             <a href="../index.html">Home</a>
             <a href="despre.html">Despre </a>
-            <a href="Noutati.html" class="active">Noutati</a>
+            <a href="noutati.html" class="active">Noutati</a>
             <a href="regulamente.html">Regulamente</a>
             <a href="contacte.html">Contacte</a>
             <a href="galerie.html">Galerie</a>
@@ -36,121 +52,40 @@
     </header>
     <div class="container">
 
-        <div class="row">
+        <div class="row"> 
             <h1>Noutăți</h1>
 
-            <table>
+            <table >
                 <tr>
-                    <td>UN MESAJ EDUCAȚIONAL PRIN CULOAREA PORTOCALIULUI!
-                        Să ne bucurăm cu toții de culorile autumnale și să aducem bună dispoziție colegilor și
-                        profesorilor! Asta și-au propus elevii L.T. ,, M. Sadoveanu”, ghidați de dna Maria Stoian,
-                        director adjunct, în preajma vacanței de toamnă, folosind talentul, ingeniozitatea și spiritul
-                        de concurență. Iar dovleacul, fără îndoială, a fost punctul de pornire, dat fiind faptul că se
-                        regăsește și în cadrul Halloween-ului. Prin implicarea elevilor s-a reușit realizarea unui
-                        mesaj educațional în zona colorată şi luminoasă a portocaliului, a bucuriei dovleacului copt și
-                        a finalului de toamnă. Un final ce culminează cu o Vacanță în care vă va zâmbi soarele şi dorul.
+                    <td >
+                        <p>
+                            FELICITĂRI CU OCAZIA SĂRBĂTORILOR DE IARNĂ!
+                        ,,Cu două mii de ani în urmă, de sus, din cerul glorios,
+                        S-a hotărât ca dintre îngeri și de pe tronul luminos
+                        Să meargă Cineva în lume, și ca un dar trimis de sus
+                        S-aducă lumii mântuire. Și daru-acesta-a fost Isus!”
+                        </p>
+                    </td>
+                    <td>
+                        <img src="../imagini/anul,nou.gif">                    
+                        <a href="https://www.facebook.com/1713340392281123/videos/684501468880697" > Vezi felicitarea</a>
                     </td>
                 </tr>
-                <tr class="tabel">
-                    <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, quas nisi veniam qui minus
-                        similique unde eos labore asperiores, vero odit perferendis quasi, accusantium consequatur
-                        temporibus nostrum ipsa. Unde, doloribus.
-                    </td>
-                </tr>
-                <tr class="tabel">
-                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolor deleniti sapiente
-                        perspiciatis, ea accusantium officiis nostrum ratione reiciendis quidem rerum nobis aliquid qui
-                        enim commodi aspernatur modi similique odit.
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique quibusdam delectus sequi
-                        nisi maxime facere magni, distinctio architecto voluptates corporis harum neque quasi possimus
-                        sapiente assumenda aut, laboriosam asperiores quis.
-                    </td>
-                </tr>
-            </table>
-            <!-- <div class="6" >
-                      <h3 class="h3">Înscrierea copilului în LT „Mihail Sadoveanu”, 2020/2021</h3>
-                    <hr />
-                      <form >
-                    <fieldset class="form">
-                        <legend >Date personale</legend>
-                       <form autocomplete="off" >
-                       <label> Prenumele copilului:</label> <br/>
-                       <input class="input-noutati" type="text" name="Prenumele copilului" id="prenume copilului" placeholder="Introdu prenumele">
-                       </form>
-                    <form autocomplete="on">
-                        <label>Numele copilului:</label> <br/>
-                        <input class="input-noutati" type="text" name="numele copilului" id="numele copilului" placeholder="Introdu numele"><br/>
-               
-                   
-                        <label for="IDNP"> IDNP:</label> <br/>
-                        <input class="input-noutati" type="number"  name="IDNP" id="IDNP" placeholder="Introdu IDNP, 13-cifre.">
-                    
-                </fieldset>
-                            <fieldset>
-                            
-                        <label>Ziua, luna și anul nașterii</label></br/>
-                        <input class="input-noutati"type="date" name="Ziua, luna și anul nașterii" id="Ziua, luna și anul nașterii" required>
-                    <br/>
-                        <label>Genul</label><br/>
-                        <input type="radio" name="Gen" id="Masculin">
-                        <label for="Masculin">Masculin</label> <br/>
-                        <input type="radio" name="Gen" id="Femenin">
-                        <label for="Femenin">Femenin</label> <br/>
-                  <br/>
-                          <label> Alege ciclul</label><br/>
-                          <input type="radio" name="Alege ciclul" id="Primar">
-                          <label for="Primar"> Primar</label>
-                          <input type="radio" name="Alege ciclul" id="Gimnazial">
-                          <label for="Gimnazial"> Gimnazial</label>
-                               <input type="radio" name="Alege ciclul" id="Liceal">
-                               <label for="Liceal"> Liceal</label>
-                <form autocomplete="on"> <br/>
-                  
-                         <label for="Clasa">Alege clasa</label>
-                        
-                        <select name="Clasa"> 
-                         <option value="1-A" selected>1-A</option>  
-                         <option value="2-A">2-A</option>
-                         <option value="3-A">3-A</option>
-                         <option value="4-A">4-A</option>
-                         <option value="5-A">5-A</option>
-                         <option value="6-A">6-A</option>
-                         <option value="7-A">7-A</option>
-                         <option value="8-A">8-A</option>
-                         <option value="9-A">9-A</option>
-                         <option value="10-A">10-A</option>
-                         <option value="10-B">10-B</option>
-                         <option value="11-A">11-A</option>
-                         <option value="11-B">11-B</option>
-                         <option value="12-A">12-A</option>
-                         <option value="12-B">12-B</option>
-                        </select> <br/>
-                      
-                              
-            
-                    <label for="Poza"></label> <br/>
-                    <input type="file" name="Poza" id="Poza"> 
-                <br/><br/>
-                   <b> <label for="acord">Sunt deacord cu regulamentul liceului.</label>
-                    <input type="checkbox" name="acord" id="acord"> </b>
-               <br/> <br/>
-                    <input class="input-submit"type="submit" value="Transmite"/>
-                </fieldset>
-            </form>
-                  </div>
-                  
-         </div>
-        </div> -->
+        </div>
+    </div>
 
-            <footer>
-                <div class="centered footer-info">
-                    <span>Liceul Teoretic"Mihail Sadoveanu"</span>
-                    <span id="an"></span>
-                </div>
+    </table>
 
-            </footer>
-            <script src="../js/main.js"></script>
-            <script src="../js/slide.js"></script>
+
+    <footer>
+        <div class="centered footer-info">
+            <span>Liceul Teoretic"Mihail Sadoveanu"</span>
+            <span id="an"></span>
+        </div>
+
+    </footer>
+    <script src="../js/main.js"></script>
+    <script src="../js/slide.js"></script>
 </body>
 
 </html>
